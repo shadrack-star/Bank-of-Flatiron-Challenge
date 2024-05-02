@@ -8,7 +8,7 @@ function TransactionsList()
   
     useEffect(()=>{
   
-      fetch('https://bank-of-flatiron-challenge-3.onrender.com/transactions')
+      fetch('http://localhost:8001/transactions')
         .then((response) => response.json())
         .then((data) => {
   
